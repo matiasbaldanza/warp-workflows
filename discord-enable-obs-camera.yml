@@ -1,8 +1,9 @@
 ## Tested from OBS 26 to OBS 29.0.2 on Mac OS Monterey 12.5.1
 name: Enable OBS webcam in Discord
-command: cd /Applications/
-  && codesign --remove-signature /Applications/Discord.app/Contents/Frameworks/Discord\ Helper\ \(Renderer\).app
-  && codesign -s - /Applications/Discord.app/Contents/Frameworks/Discord\ Helper\ \(Renderer\).app
+command: |-
+  cd /Applications/
+  codesign --remove-signature /Applications/Discord.app/Contents/Frameworks/Discord\ Helper\ \(Renderer\).app
+  codesign -s - /Applications/Discord.app/Contents/Frameworks/Discord\ Helper\ \(Renderer\).app
 tags: ["discord", "obs", "webcam", "virtual camera"]
 source_url: https://obsproject.com/forum/threads/fyi-macos-virtual-cam-on-obs-26-1.135468/page-6
 autor: Matias Baldanza - https://github.com/matiasbaldanza
