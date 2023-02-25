@@ -1,14 +1,8 @@
-## Comments go here
-
-## If you need to run multiple commands:
-##    you can chain them using &&
-##    or you can format the command section like this:
-##
-##    command: |-
-##        command1
-##        command2
-##        ...
-name:
-command:
-tags: ["", ""]
+## Kills global install of create-react-app and reinstalls it
+name: CRA reinstall
+command: |-
+  npm uninstall -g create-react-app
+  npx clear-npx-cache
+  npm i create-react-app
+tags: ["create-react-app", "cra"]
 autor: Matias Baldanza - https://github.com/matiasbaldanza
