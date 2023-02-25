@@ -1,0 +1,4 @@
+name: CD to local workflows directory
+command: cd ~/.warp/workflows/
+tags: ["warp", "workflows"]
+autor: Matias Baldanza - https://github.com/matiasbaldanza

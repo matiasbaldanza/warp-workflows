@@ -1,0 +1,4 @@
+name: CD to local workflows directory
+command: vscode ~/.warp/workflows/
+tags: ["warp", "workflows", "edit", "vscode"]
+autor: Matias Baldanza - https://github.com/matiasbaldanza
