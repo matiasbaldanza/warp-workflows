@@ -1,4 +1,6 @@
-name: CD to local workflows directory
-command: vscode ~/.warp/workflows/
-tags: ["warp", "workflows", "edit", "vscode"]
+name: Edit local workflows directory in a new VSCode window
+command: |-
+  cd ~/.warp/workflows/
+  code .
+tags: ["warp", "workflows"]
 autor: Matias Baldanza - https://github.com/matiasbaldanza
