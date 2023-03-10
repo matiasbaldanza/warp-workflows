@@ -1,0 +1,7 @@
+## Kills global install of create-react-app and reinstalls it
+name: Open second OBS instance in MacOS
+command: |-
+  cd /Applications
+  open -n -a OBS.app
+tags: ["obs", "mac", "macos"]
+autor: Matias Baldanza - https://github.com/matiasbaldanza
