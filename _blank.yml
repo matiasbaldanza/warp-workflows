@@ -1,8 +1,8 @@
-## Kills global install of create-react-app and reinstalls it
-name: CRA reinstall
+## Comment
+name: ##title
 command: |-
-  npm uninstall -g create-react-app
-  npx clear-npx-cache
-  npm i create-react-app
-tags: ["create-react-app", "cra"]
+  ## command 1
+  ## command 2
+  ## command 3
+tags: [" ", " "]
 autor: Matias Baldanza - https://github.com/matiasbaldanza
