@@ -1,0 +1,17 @@
+## Deploy from vite to GitHubPages
+## Requires adding to vite.config.js the base property
+## export default defineConfig({
+##  plugins: [react()],
+##  base: '/repo-name/'
+##})
+
+## Also: set up GitHub pages to publish from branch 'gh-pages'
+
+name: ##Deploy from vite to GitHubPages
+command: |-
+  npm run build
+  git add dist -f
+  git commit -m "add dist"
+  git subtree push --prefix dist origin gh-pages
+tags: [" ", " "]
+autor: Matias Baldanza - https://github.com/matiasbaldanza
